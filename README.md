@@ -34,7 +34,7 @@ graph TD
 
 ## 🔑 Secure Connectivity & Integration
 
-- **Live Public API Wrapper**: Connects directly to the live OpenFDA database (`https://api.fda.gov/drug/`) without mocking, retrieving actual enforcement records and event totals.
+- **Live Public API Wrapper**: Connects directly to the live OpenFDA database, retrieving actual enforcement records and event totals.
 - **OAuth Middleware simulation**: All agent tool invocations must provide a valid OAuth token (`OAUTH_TOKEN_PV_COMPLIANT_77`). Unauthorized or missing tokens immediately halt the pipeline.
 
 ---
