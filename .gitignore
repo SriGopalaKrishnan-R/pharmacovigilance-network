@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+traces/*.json
+.system_generated/
+.env
+.venv/
+env/
+venv/
